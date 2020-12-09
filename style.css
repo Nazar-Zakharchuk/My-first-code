@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.mainBlock {
+    max-width: 450px;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    overflow: hidden;
+}
+
+.block {
+    border: 1px solid black;
+    width: 150px;
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latter_n {
+    background-color: darkgoldenrod;
+}
+.latter_a {
+    background-color: dimgrey;
+}
+.latter_z {
+    background-color: red;
+}
+.latter_aa {
+    background-color: blue;
+}
+.latter_r {
+    background-color: green;
+}
+
+p {
+    font-size: 88px;
+}
+
+.N:hover {
+    color: blue;
+}
+
+.A:hover {
+    color: green;
+}
+
+.Z:hover {
+    color: darkred;
+}
+
+.AA:hover {
+    color: yellow;
+}
+
+.R:hover {
+    color: crimson;
+}
+
+.block_N:hover {
+    background-color: olive;
+}
+
+.block_A:hover{
+    background-color: orange;
+}
+
+.block_Z:hover {
+    background-color: purple;
+}
+
+.block_AA:hover {
+    background-color: black;
+}
+
+.block_R:hover {
+    background-color: blue;
+}
